@@ -1,5 +1,5 @@
 const TelegramBot = require('node-telegram-bot-api');
-const token = '5332414219:AAGX6hbLeCWJZQgqD56TEogsC7DLX8p3J9Y';
+const token = '';
 const bot = new TelegramBot(token, {polling: true});
 const fs = require('fs');
 const spawner = require('child_process').spawn;
