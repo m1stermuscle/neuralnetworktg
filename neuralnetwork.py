@@ -13,8 +13,8 @@ def get_path_img(path):
     path_img = path
 
 get_path_img(input)
-path_network = 'F:/ctgbot/ClothNN.pkl'
-path_table = 'F:/ctgbot/cloth.csv'
+path_network = ''
+path_table = ''
 
 def get_x(r): return r['image'] 
 def get_y(r): return r['label_cat'].split(' ') 
